@@ -1,3 +1,3 @@
-var g = G$('Matthew', 'Okoroafor');
+var g = G$('John', 'Johnson');
 
 console.log(g);
