@@ -1,3 +1,12 @@
 var g = G$('John', 'Johnson');
 
-console.log(g);
+$("#login").click(function(){
+    
+    var loginGrtr = G$('Collins', 'Igeh');
+
+    $("#logindiv").hide();
+
+    loginGrtr.setLang($("#lang").val()).HTMLGreeting("#greeting").log();
+
+})
+
