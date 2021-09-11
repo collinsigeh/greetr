@@ -113,6 +113,8 @@
             self.lastName = lastName || "";
             self.language = language || "en";
 
+            self.validate();
+
         }
 
         Greetr.init.prototype = Greetr.prototype;
